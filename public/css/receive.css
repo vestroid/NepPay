@@ -1,0 +1,15 @@
+.wallet-card {
+    background:
+        radial-gradient(circle at top right, rgba(185, 81, 255, 0.16), transparent 30%),
+        rgba(255, 255, 255, 0.04);
+}
+
+.wallet-actions {
+    margin-top: 1rem;
+}
+
+.link-line {
+    margin: 0;
+    word-break: break-all;
+    font-weight: 700;
+}

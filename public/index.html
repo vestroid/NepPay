@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NepPay — Digital Wallet</title>
+  <meta name="description" content="Nepal's fast, transparent digital wallet.">
+  <meta name="theme-color" content="#0A0814">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://unpkg.com/recharts@2.12.2/umd/Recharts.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <noscript><div style="min-height:100vh;display:grid;place-items:center;background:#0A0814;color:#F0EEFF;font-family:Inter,sans-serif;text-align:center;padding:2rem"><p>NepPay requires JavaScript.</p></div></noscript>
+  <script type="text/babel" data-presets="react" src="/app/core.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/pages-auth.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/layout-wallet.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/page-dashboard-send.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/page-receive-statements.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/page-statistics-profile.jsx"></script>
+  <script type="text/babel" data-presets="react" src="/app/main.jsx"></script>
+</body>
+</html>

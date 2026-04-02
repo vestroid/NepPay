@@ -1,0 +1,24 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  width="128" 
+  height="128" 
+  viewBox="0 0 128 128" 
+  role="img" 
+  aria-labelledby="title desc"
+>
+  <title id="title">NepPay Logo</title>
+  <desc id="desc">A rounded square with a stylized N and rupee-inspired stroke.</desc>
+  <defs>
+    <linearGradient id="bg" x1="16" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d57cff"/>
+      <stop offset="1" stop-color="#635bff"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="32" y1="28" x2="91" y2="102" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#efe6ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <path d="M35 94V34h12.5l27 35.5V34H93v60H80.4L53.5 58.9V94H35Z" fill="url(#fg)"/>
+  <path d="M90 34h-9.5l-6.2 8.2h9.4L90 34Zm0 18H68.3l6.1-8.2H96L90 52Z" fill="#efe6ff"/>
+</svg>

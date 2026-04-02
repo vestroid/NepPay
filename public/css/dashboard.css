@@ -1,0 +1,19 @@
+.summary-card {
+    min-height: 112px;
+}
+
+.action-card {
+    padding: 1.1rem;
+    text-align: left;
+    color: var(--text);
+}
+
+.amount-text {
+    margin: 1rem 0 1.2rem;
+}
+
+.statement-total {
+    display: grid;
+    text-align: right;
+    gap: 0.15rem;
+}

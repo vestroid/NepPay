@@ -1,0 +1,7 @@
+.chart-empty {
+    min-height: 160px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 1rem;
+}

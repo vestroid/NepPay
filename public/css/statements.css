@@ -1,0 +1,8 @@
+.timeline-date {
+    margin: 0;
+    font-weight: 800;
+}
+
+.statement-totals {
+    justify-content: flex-end;
+}

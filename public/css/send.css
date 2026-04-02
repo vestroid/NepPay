@@ -1,0 +1,37 @@
+.inline-banner strong {
+    display: block;
+    margin-bottom: 0.35rem;
+}
+
+.contact-left,
+.tx-left {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.contact-name,
+.tx-title,
+.step-title,
+.wallet-id {
+    font-weight: 700;
+}
+
+.contact-meta,
+.tx-meta {
+    font-size: 0.88rem;
+    color: var(--muted);
+}
+
+.tx-amount {
+    font-weight: 800;
+    text-align: right;
+}
+
+.amount-positive {
+    color: #94f3cb;
+}
+
+.amount-negative {
+    color: #ffc6d2;
+}
